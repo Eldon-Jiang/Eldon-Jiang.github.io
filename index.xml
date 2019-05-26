@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Eldon Jiang</title>
+    <link>https://Eldon-Jiang.github.io/</link>
+    <description>Recent content on Eldon Jiang</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 25 May 2019 00:51:36 -0400</lastBuildDate>
+    
+	<atom:link href="https://Eldon-Jiang.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Who am I ?</title>
+      <link>https://Eldon-Jiang.github.io/2019/05/who-am-i/</link>
+      <pubDate>Sat, 25 May 2019 00:51:36 -0400</pubDate>
+      
+      <guid>https://Eldon-Jiang.github.io/2019/05/who-am-i/</guid>
+      <description>Nice to meet you! Do you want to know more about me?</description>
+    </item>
+    
+    <item>
+      <title>Contact Me</title>
+      <link>https://Eldon-Jiang.github.io/page/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://Eldon-Jiang.github.io/page/contact/</guid>
+      <description>Thank you so much for visiting my blog, I will take my time to write more posts and at the same time do well at school and work.
+Everything here is just my thoughts; all my posts may contain mistakes because I am constantly learning (lol I am still young).
+If you have any questions, feel free to send me email. I promise I will reply as soon as I can.</description>
+    </item>
+    
+  </channel>
+</rss>
