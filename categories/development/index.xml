@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Eldon Jiang</title>
-    <link>https://Eldon-Jiang.github.io/post/</link>
-    <description>Recent content in Posts on Eldon Jiang</description>
+    <title>Development on Eldon Jiang</title>
+    <link>https://Eldon-Jiang.github.io/categories/development/</link>
+    <description>Recent content in Development on Eldon Jiang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 20 Jun 2019 00:06:23 -0400</lastBuildDate>
     
-	<atom:link href="https://Eldon-Jiang.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://Eldon-Jiang.github.io/categories/development/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -20,15 +20,6 @@
       <description>&lt;p&gt;Website is just so interesting and important to the world nowadays, and I believe it is becoming more and more interesting and important every second.&lt;/p&gt;
 
 &lt;p&gt;So let&amp;rsquo;s talk about my understanding of web development; I want to explain the fundamental concepts in my way, Eldon&amp;rsquo;s way so that someone without experience would understand :p&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Who am I ?</title>
-      <link>https://Eldon-Jiang.github.io/2019/05/who-am-i/</link>
-      <pubDate>Sat, 25 May 2019 00:51:36 -0400</pubDate>
-      
-      <guid>https://Eldon-Jiang.github.io/2019/05/who-am-i/</guid>
-      <description>Nice to meet you! Do you want to know more about me?</description>
     </item>
     
   </channel>
