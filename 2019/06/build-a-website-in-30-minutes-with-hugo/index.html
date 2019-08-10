@@ -7,34 +7,26 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="generator" content="Hugo 0.55.5 with theme Tranquilpeak 0.4.3-SNAPSHOT">
 <meta name="author" content="Eldon Jiang">
-<meta name="keywords" content="web development, web app, development, eldon jiang, web app, waterloo">
-<meta name="description" content="Website is just so interesting and important to the world nowadays, and I believe it is becoming more and more interesting and important every second.
-
-So let&rsquo;s talk about my understanding of web development; I want to explain the fundamental concepts in my way, Eldon&rsquo;s way so that someone without experience would understand :p">
+<meta name="keywords" content="hugo, blog, static web, development, eldon jiang, web app, waterloo">
+<meta name="description" content="If you ever want to build a static website like a personal blog, project page or technology documentation, what approach will you take to generate it? Think about it, what if you can set up, build, deploy the website within 30 minutes when it looks beatufiful and feels modern? Use a static website generator!">
 
 
-<meta property="og:description" content="Website is just so interesting and important to the world nowadays, and I believe it is becoming more and more interesting and important every second.
-
-So let&rsquo;s talk about my understanding of web development; I want to explain the fundamental concepts in my way, Eldon&rsquo;s way so that someone without experience would understand :p">
+<meta property="og:description" content="If you ever want to build a static website like a personal blog, project page or technology documentation, what approach will you take to generate it? Think about it, what if you can set up, build, deploy the website within 30 minutes when it looks beatufiful and feels modern? Use a static website generator!">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Big Ideas of Web Development">
-<meta name="twitter:title" content="Big Ideas of Web Development">
-<meta property="og:url" content="https://Eldon-Jiang.github.io/2019/06/big-ideas-of-web-development/">
-<meta property="twitter:url" content="https://Eldon-Jiang.github.io/2019/06/big-ideas-of-web-development/">
+<meta property="og:title" content="Build a Website in 30 Minutes with Hugo">
+<meta name="twitter:title" content="Build a Website in 30 Minutes with Hugo">
+<meta property="og:url" content="https://Eldon-Jiang.github.io/2019/06/build-a-website-in-30-minutes-with-hugo/">
+<meta property="twitter:url" content="https://Eldon-Jiang.github.io/2019/06/build-a-website-in-30-minutes-with-hugo/">
 <meta property="og:site_name" content="A Dive in Eldon&#39;s Mind">
-<meta property="og:description" content="Website is just so interesting and important to the world nowadays, and I believe it is becoming more and more interesting and important every second.
-
-So let&rsquo;s talk about my understanding of web development; I want to explain the fundamental concepts in my way, Eldon&rsquo;s way so that someone without experience would understand :p">
-<meta name="twitter:description" content="Website is just so interesting and important to the world nowadays, and I believe it is becoming more and more interesting and important every second.
-
-So let&rsquo;s talk about my understanding of web development; I want to explain the fundamental concepts in my way, Eldon&rsquo;s way so that someone without experience would understand :p">
+<meta property="og:description" content="If you ever want to build a static website like a personal blog, project page or technology documentation, what approach will you take to generate it? Think about it, what if you can set up, build, deploy the website within 30 minutes when it looks beatufiful and feels modern? Use a static website generator!">
+<meta name="twitter:description" content="If you ever want to build a static website like a personal blog, project page or technology documentation, what approach will you take to generate it? Think about it, what if you can set up, build, deploy the website within 30 minutes when it looks beatufiful and feels modern? Use a static website generator!">
 <meta property="og:locale" content="en-us">
 
   
-    <meta property="article:published_time" content="2019-06-20T00:06:23">
+    <meta property="article:published_time" content="2019-06-22T18:19:21">
   
   
-    <meta property="article:modified_time" content="2019-06-20T00:06:23">
+    <meta property="article:modified_time" content="2019-06-22T18:19:21">
   
   
   
@@ -58,8 +50,8 @@ So let&rsquo;s talk about my understanding of web development; I want to explain
 
 
 
-  <meta property="og:image" content="https://lh3.googleusercontent.com/pGJVRNjQpAt467r48D2lclw18YZt8TX_PPeTwrTkm2ifUr3tJKQQ_gNJX9DgyyaczPoZU-sF7PBS8Knit6HPFmohpaKuGKM7NImq6lAkb4hed2j989Ih-MECGHIC4Z1c1L4oYYcQ=w2400">
-  <meta property="twitter:image" content="https://lh3.googleusercontent.com/pGJVRNjQpAt467r48D2lclw18YZt8TX_PPeTwrTkm2ifUr3tJKQQ_gNJX9DgyyaczPoZU-sF7PBS8Knit6HPFmohpaKuGKM7NImq6lAkb4hed2j989Ih-MECGHIC4Z1c1L4oYYcQ=w2400">
+  <meta property="og:image" content="https://lh3.googleusercontent.com/S73pbn7A69Meg68JPb_6maF6z9S1aUDFGirp94bUpvgjdM9LDcLprUE8pUTkaMi9qwOahj0g3QbTlzOx7K6zjgIhLv4bgEq4z5HZahsWN1HgwHAiCVihkIcBt324gQEu8PP-0dIPjA=w2400">
+  <meta property="twitter:image" content="https://lh3.googleusercontent.com/S73pbn7A69Meg68JPb_6maF6z9S1aUDFGirp94bUpvgjdM9LDcLprUE8pUTkaMi9qwOahj0g3QbTlzOx7K6zjgIhLv4bgEq4z5HZahsWN1HgwHAiCVihkIcBt324gQEu8PP-0dIPjA=w2400">
 
 
 
@@ -68,14 +60,14 @@ So let&rsquo;s talk about my understanding of web development; I want to explain
   <meta property="twitter:image" content="https://lh3.googleusercontent.com/HIQCUneqsjPi0ishbAzsvMY1wyd4fRA8rF8Ati8wTh81JfCTZQ3JL6upXvbENx_9atdFWR6hHP2xSfzExGQGlLG-w9rGFiEL439nQVadZYSe0rTJOe2ZObexOd2Wc9xRVfmKs5ou=w2400">
 
 
-    <title>Big Ideas of Web Development</title>
+    <title>Build a Website in 30 Minutes with Hugo</title>
 
     <link rel="icon" href="https://lh3.googleusercontent.com/1UNFduxqcMjDv0IIdSWzBUQY27-JowFd14noLAOr5oxCmnsiF-_BHjEHCn1pcwgfqIaghxOERQ0e9rVbZh3i6QtAASco5f0fOQ8rySAS-j8LboG5GLel08KBYQcANSRmRo8jKgA1=s200-p-k">
     
 
     
 
-    <link rel="canonical" href="https://Eldon-Jiang.github.io/2019/06/big-ideas-of-web-development/">
+    <link rel="canonical" href="https://Eldon-Jiang.github.io/2019/06/build-a-website-in-30-minutes-with-hugo/">
 
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" />
@@ -220,7 +212,7 @@ if (!doNotTrack) {
   <div class="post-header-cover
               text-center
               post-header-cover--partial"
-       style="background-image:url('https://lh3.googleusercontent.com/pGJVRNjQpAt467r48D2lclw18YZt8TX_PPeTwrTkm2ifUr3tJKQQ_gNJX9DgyyaczPoZU-sF7PBS8Knit6HPFmohpaKuGKM7NImq6lAkb4hed2j989Ih-MECGHIC4Z1c1L4oYYcQ=w2400')"
+       style="background-image:url('https://lh3.googleusercontent.com/S73pbn7A69Meg68JPb_6maF6z9S1aUDFGirp94bUpvgjdM9LDcLprUE8pUTkaMi9qwOahj0g3QbTlzOx7K6zjgIhLv4bgEq4z5HZahsWN1HgwHAiCVihkIcBt324gQEu8PP-0dIPjA=w2400')"
        data-behavior="5">
     
   </div>
@@ -232,21 +224,21 @@ if (!doNotTrack) {
                hasCoverCaption">
         <article class="post" itemscope itemType="http://schema.org/BlogPosting">
           
-            <span class="post-header-cover-caption caption">My cute illustration of web app architecture</span>
+            <span class="post-header-cover-caption caption">Hugo project page</span>
           
           
             <div class="post-header main-content-wrap text-center">
   
     <h1 class="post-title" itemprop="headline">
-      Big Ideas of Web Development
+      Build a Website in 30 Minutes with Hugo
     </h1>
   
   
   <div class="postShorten-meta post-meta">
     
-      <time itemprop="datePublished" datetime="2019-06-20T00:06:23-04:00">
+      <time itemprop="datePublished" datetime="2019-06-22T18:19:21-04:00">
         
-  June 20, 2019
+  June 22, 2019
 
       </time>
     
@@ -265,53 +257,139 @@ if (!doNotTrack) {
           
           <div class="post-content markdown" itemprop="articleBody">
             <div class="main-content-wrap">
-              <p>Website is just so interesting and important to the world nowadays, and I believe it is becoming more and more interesting and important every second.</p>
+              <p>If you ever want to build a static website like a personal blog, project page or technology documentation, what approach will you take to generate it? Think about it, what if you can set up, build, deploy the website within 30 minutes when it looks beatufiful and feels modern? Use a static website generator!</p>
 
-<p>So let&rsquo;s talk about my understanding of web development; I want to explain the fundamental concepts in my way, Eldon&rsquo;s way so that someone without experience would understand :p</p>
+<h2 id="what-and-why-hugo">What and Why Hugo</h2>
 
-<h2 id="static-or-dynamic">Static or Dynamic</h2>
+<p><a href="https://gohugo.io/">Hugo</a> is a static website generator based on Golang, and I would definitely recommand choosing it if you want to entire process of builidng the website to be <strong>super fast</strong>. This blog is powered by Hugo, and every time it only take me less than 30 seconds to deploy the updates of the website! Besides being fast, Hugo also comes with all kinds of templates I can choose from and for most cases I can find the perfect template which I can configure to be unique with me settings.</p>
 
-<p>A <strong>Static</strong> website is one that is constant, showing exactly the same contents and performing exactly the same tasks to every one. My blog is a perfect example of a static website &ndash; it&rsquo;s the same website unless I change the contents of it. Since the website shows the same contents, it normally does not require a server to retrieve other resources and already contain all information it needs when it is being deployed.</p>
+</div>
+<div class="figure figure--fullWidth">
+  <img class="figure-img" src="https://lh3.googleusercontent.com/DRovr-ovwDHNUzGJPNhIhDqTdq3U8pSalVCQUyIeypA7iKsBNrnI7AV_kB6DOCrvurIL2yuJ_XIDIOsz1ZEus7Ck1CEsuulULB2CW7Mp7Qe8E84EoZW_00Fpv87xLePGBWvsSVhJpQ=w2400" alt="I am writing this post" /><span class="caption">I am writing this post</span>
+</div>
+<div class="main-content-wrap">
 
-<p>A <strong>Dynamic</strong> website is one that changes, showing different contents and performing different tasks for each different session. Facebook is a perfect example of a dynamic website &ndash; no developer is changing the web page for you every day (well hopefully&hellip;), the website has the same design but the actual contents are being retrieved from a server.</p>
+<h2 id="how-hugo">How Hugo</h2>
 
-<p>The key difference between them is that the Static website already knows the required information for it to render when it is deployed but the Dynamic website does not know until it retrieves the information from the server.</p>
+<p>The purpose of this article is not to tell you everything about Hugo but to be info for you to just get started on Hugo.</p>
 
-<h2 id="frontend-backend-and-full-stack">Frontend, Backend and Full-stack</h2>
+<h3 id="1-install-hugo">1. Install Hugo</h3>
 
-<p>Most web applications are dynamic because each user has their own user data. For this purpose to be fulfilled, a server that can store data and communicate with the &lsquo;website&rsquo; should exist; and from here we can divide our web app development into the so called <strong>Frontend</strong> and <strong>Backend</strong>.</p>
+<p>Install with brew</p>
 
-<p>The &lsquo;genius&rsquo; developers who can work with both and build an entire web application on their own are the so called <strong>Full-Stack Developers</strong> (just kidding, no developer truly work on their own :P). To put it simply, the user should be see and fell the Frontend work but never realize the Backend exist.</p>
+<pre><code class="language-bash">brew install hugo
+</code></pre>
 
-<p>Imagine you are in a fancy restaurant, Frontend would be the nice-looking waiter in front of you who give the menu to you, serve you, take your order and deliver dishes to you (well also charge you money); Backend would be the chef in the kitchen who look at your order given by the waiter, cook the food and give the food to the waiter. The waiter and the chef work together so that you can enjoy the delicious dishes.</p>
+<p>Confirm installed</p>
 
-<p>For the Frontend (or the waiter), giving you the menu is to render a User Interface, serving you is to emit events responding to your actions, taking your order / delivering dishes to or from the kitchen is to send API request and update UI based on API response.</p>
+<pre><code class="language-bash">hugo version
+</code></pre>
 
-<p>For the Backend (or the chef), lookin at the order is to listen to API request to respond, cooking the food based on recipe is to perform tasks logically and manipulate the data, and giving the food back is to return the API call&rsquo;s response.</p>
+<h3 id="2-create-a-project">2. Create a Project</h3>
 
-<p>Working together, the Frontend and the Backend serve the client a fluent and seamless user experience and make countless great things possible.</p>
+<p>Create a new Hugo project</p>
 
-<p>A really important part of the backend is the <strong>Database</strong> which is a like a place to store data, and it is manipulated by the backend application. The backend application and database are running on a server thus no user can directly access them without visiting the frontend website.</p>
+<pre><code class="language-bash">hugo new site [name]
+</code></pre>
 
-<h2 id="html-css-and-javascript">HTML, CSS and JavaScript</h2>
 
-<p>HTML, CSS and JavaScript are the fundamental building blocks of any web application, more precisely for the Frontend. They are received by the browser when it connects to a website; and a browser can use them to render the view seen by the users.</p>
 
-<p>No matter what fancy framework is used to build the web app frontend, it eventually need to give the browser html, css and JavaScript files; which tell the browser about webpage what contents it has, how the contents look like and how to respond to the user&rsquo;s actions respectively.</p>
 
-<h2 id="restful-api">RESTful API</h2>
+<div class="figure center" >
+  
+    <img class="fig-img" src="https://lh3.googleusercontent.com/op-SuQR0VhsdjiLrSbfffD96Sx24A2n2GJQeDZq0KZc3udvP2evhvWsyvESnBgYSUy-JImpHaIK3OyW-mZqEWLk2CFGRIx9ryFepyrolgrZdXEzEEmA0-B3I9pjOF1gdJR-21as1aQ=w2400"  alt="New project">
+  
+   
+    <span class="caption">New project</span>
+  
+</div>
 
-<p>RESTful API, application program interface using HTTP request, is used widely for frontend and backend to communicate. Usually they are divided to different Http Action; GET, PUT, POST, DELETE are the most common kinds.</p>
 
-<p>These APIs are usually used to manipulate database, and are very much self-explanatory: GET is to retrieve data; POST is to add data in;  PUT is to update data; DELETE is to delete data.</p>
+<h3 id="3-configure-a-theme">3. Configure a Theme</h3>
 
-<p>The API request is sent by the frontend to a specific url with the necessary query headers and request body when certain events trigger it. The backend application is running on a server and listening to all the incoming API requests; then it would act accordingly to perform its tasks and then send a API response back to the frontend.</p>
+<p>Choose from the <a href="https://themes.gohugo.io/">list of themes</a>, look for one that surve your purpose.</p>
 
-<p>And sometimes there is a API Gateway on the server that looks at the API first and takes care of the the routing and authentication; in simpler words, the Gateway service decides which application should take care of this request and if the request has the correct authorization to be performed.</p>
+<p>Add the theme to project as a git submodule. I use <em>ananke</em> as an example.</p>
+
+<pre><code class="language-bash"># Clone the theme src to the theme folder
+git init
+git submodule add https://github.com/budparr/gohugo-theme-ananke.git themes/ananke
+# Configure to use this theme
+echo 'theme = &quot;ananke&quot;' &gt;&gt; config.toml
+</code></pre>
+
+<p>Read the user documentation of the theme.</p>
+
+<p>Configure the <code>config.toml</code> file based on the documentation and your needs.</p>
+
+<h3 id="4-write-posts">4. Write posts</h3>
+
+<p>Create a new post.</p>
+
+<pre><code class="language-bash">hugo new posts/my-first-post.md
+</code></pre>
+
+<p>Start the server to see real time changes.</p>
+
+<pre><code class="language-bash">hugo server -D
+</code></pre>
+
+<p>Go to <code>localhost:1313</code> to see the result.</p>
+
+
+
+
+<div class="figure center" >
+  
+    <img class="fig-img" src="https://lh3.googleusercontent.com/UbSbEvEgschlZ10pDKcckpSH7i4D6fIE8UkaGmjw2ZmXvPYrWFtfKIKDUE68xrDzOhAnMqsgX7qTlJ7dtElZ95SJGYlWNZvsUx-SOe_aXEN7B93sNLsNKEz-JMSWrMTN0aYWxXcS5A=w2400"  alt="Development server">
+  
+   
+    <span class="caption">Development server</span>
+  
+</div>
+
+
+<h3 id="5-build">5. Build</h3>
+
+<p>Build the website</p>
+
+<pre><code class="language-bash">hugo
+</code></pre>
+
+<p>It takes less than 30 seconds to generate the website to the <code>public</code> folder.</p>
+
+
+
+
+<div class="figure center" >
+  
+    <img class="fig-img" src="https://lh3.googleusercontent.com/2pn4F-UYVQGwsrxsQuyOvQBlu2sFZRCiZTZPgQ4ALYiANO_PPBK--rrRpfjjknVZXuvz516eYTSTgKeHVETkYZ00YJIKe4kbukfQLt1NgYZLDT2bkSRcmS2l1J4eM1qlwer9oJw2HQ=w2400"  alt="Production build">
+  
+   
+    <span class="caption">Production build</span>
+  
+</div>
+
+
+<h3 id="6-deploy">6. Deploy</h3>
+
+<p>The website is static so any static server will suffice.</p>
+
+<p>I personally choose <em>GitHub Pages</em> because I can host my website and do version control at the same time, and it is free.</p>
 
 <hr />
 
-<p>And here we go, I have talked about some of the most important concepts about web development. For more detailed and technical description about each part of web development, I want to cover them in other posts! Don&rsquo;t hesitate to discuss anything with me!</p>
+<p>That&rsquo;s it, now a fresh website is just created!</p>
+
+
+
+
+<div class="figure center nocaption" >
+  
+    <img class="fig-img" src="https://media.giphy.com/media/10UeedrT5MIfPG/giphy.gif"  alt="Funny gif">
+  
+  
+</div>
               
             </div>
           </div>
@@ -336,7 +414,7 @@ if (!doNotTrack) {
           
             <li class="post-action">
               
-                <a class="post-action-btn btn btn--default tooltip--top" href="https://Eldon-Jiang.github.io/2019/05/who-is-the-eldon-jiang-guy/" data-tooltip="Who is the Eldon Jiang guy?">
+                <a class="post-action-btn btn btn--default tooltip--top" href="https://Eldon-Jiang.github.io/2019/06/big-ideas-of-web-development/" data-tooltip="Big Ideas of Web Development">
               
                   <i class="fa fa-angle-left"></i>
                   <span class="hide-xs hide-sm text-small icon-ml">PREVIOUS</span>
@@ -344,7 +422,7 @@ if (!doNotTrack) {
             </li>
             <li class="post-action">
               
-                <a class="post-action-btn btn btn--default tooltip--top" href="https://Eldon-Jiang.github.io/2019/06/build-a-website-in-30-minutes-with-hugo/" data-tooltip="Build a Website in 30 Minutes with Hugo">
+                <a class="post-action-btn btn btn--disabled">
               
                   <span class="hide-xs hide-sm text-small icon-mr">NEXT</span>
                   <i class="fa fa-angle-right"></i>
@@ -362,13 +440,13 @@ if (!doNotTrack) {
         </li>
         
           <li class="post-action hide-xs">
-            <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=https://Eldon-Jiang.github.io/2019/06/big-ideas-of-web-development/">
+            <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=https://Eldon-Jiang.github.io/2019/06/build-a-website-in-30-minutes-with-hugo/">
               <i class="fa fa-facebook-official"></i>
             </a>
           </li>
         
           <li class="post-action hide-xs">
-            <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=https://Eldon-Jiang.github.io/2019/06/big-ideas-of-web-development/">
+            <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=https://Eldon-Jiang.github.io/2019/06/build-a-website-in-30-minutes-with-hugo/">
               <i class="fa fa-twitter"></i>
             </a>
           </li>
@@ -416,7 +494,7 @@ if (!doNotTrack) {
           
             <li class="post-action">
               
-                <a class="post-action-btn btn btn--default tooltip--top" href="https://Eldon-Jiang.github.io/2019/05/who-is-the-eldon-jiang-guy/" data-tooltip="Who is the Eldon Jiang guy?">
+                <a class="post-action-btn btn btn--default tooltip--top" href="https://Eldon-Jiang.github.io/2019/06/big-ideas-of-web-development/" data-tooltip="Big Ideas of Web Development">
               
                   <i class="fa fa-angle-left"></i>
                   <span class="hide-xs hide-sm text-small icon-ml">PREVIOUS</span>
@@ -424,7 +502,7 @@ if (!doNotTrack) {
             </li>
             <li class="post-action">
               
-                <a class="post-action-btn btn btn--default tooltip--top" href="https://Eldon-Jiang.github.io/2019/06/build-a-website-in-30-minutes-with-hugo/" data-tooltip="Build a Website in 30 Minutes with Hugo">
+                <a class="post-action-btn btn btn--disabled">
               
                   <span class="hide-xs hide-sm text-small icon-mr">NEXT</span>
                   <i class="fa fa-angle-right"></i>
@@ -442,13 +520,13 @@ if (!doNotTrack) {
         </li>
         
           <li class="post-action hide-xs">
-            <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=https://Eldon-Jiang.github.io/2019/06/big-ideas-of-web-development/">
+            <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=https://Eldon-Jiang.github.io/2019/06/build-a-website-in-30-minutes-with-hugo/">
               <i class="fa fa-facebook-official"></i>
             </a>
           </li>
         
           <li class="post-action hide-xs">
-            <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=https://Eldon-Jiang.github.io/2019/06/big-ideas-of-web-development/">
+            <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=https://Eldon-Jiang.github.io/2019/06/build-a-website-in-30-minutes-with-hugo/">
               <i class="fa fa-twitter"></i>
             </a>
           </li>
@@ -478,13 +556,13 @@ if (!doNotTrack) {
   <ul class="share-options">
     
       <li class="share-option">
-        <a class="share-option-btn" target="new" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2FEldon-Jiang.github.io%2F2019%2F06%2Fbig-ideas-of-web-development%2F">
+        <a class="share-option-btn" target="new" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2FEldon-Jiang.github.io%2F2019%2F06%2Fbuild-a-website-in-30-minutes-with-hugo%2F">
           <i class="fa fa-facebook-official"></i><span>Share on Facebook</span>
         </a>
       </li>
     
       <li class="share-option">
-        <a class="share-option-btn" target="new" href="https://twitter.com/intent/tweet?text=https%3A%2F%2FEldon-Jiang.github.io%2F2019%2F06%2Fbig-ideas-of-web-development%2F">
+        <a class="share-option-btn" target="new" href="https://twitter.com/intent/tweet?text=https%3A%2F%2FEldon-Jiang.github.io%2F2019%2F06%2Fbuild-a-website-in-30-minutes-with-hugo%2F">
           <i class="fa fa-twitter"></i><span>Share on Twitter</span>
         </a>
       </li>
@@ -657,9 +735,9 @@ $(document).ready(function() {
     
       <script>
         var disqus_config = function () {
-          this.page.url = 'https:\/\/Eldon-Jiang.github.io\/2019\/06\/big-ideas-of-web-development\/';
+          this.page.url = 'https:\/\/Eldon-Jiang.github.io\/2019\/06\/build-a-website-in-30-minutes-with-hugo\/';
           
-            this.page.identifier = 'aboutwebdev';
+            this.page.identifier = 'hugo';
           
         };
         (function() {

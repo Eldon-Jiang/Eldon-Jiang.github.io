@@ -6,10 +6,19 @@
     <description>Recent content in Posts on A Dive in Eldon&#39;s Mind</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 20 Jun 2019 00:06:23 -0400</lastBuildDate>
+    <lastBuildDate>Sat, 22 Jun 2019 18:19:21 -0400</lastBuildDate>
     
 	<atom:link href="https://Eldon-Jiang.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Build a Website in 30 Minutes with Hugo</title>
+      <link>https://Eldon-Jiang.github.io/2019/06/build-a-website-in-30-minutes-with-hugo/</link>
+      <pubDate>Sat, 22 Jun 2019 18:19:21 -0400</pubDate>
+      
+      <guid>https://Eldon-Jiang.github.io/2019/06/build-a-website-in-30-minutes-with-hugo/</guid>
+      <description>&lt;p&gt;If you ever want to build a static website like a personal blog, project page or technology documentation, what approach will you take to generate it? Think about it, what if you can set up, build, deploy the website within 30 minutes when it looks beatufiful and feels modern? Use a static website generator!&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Big Ideas of Web Development</title>
